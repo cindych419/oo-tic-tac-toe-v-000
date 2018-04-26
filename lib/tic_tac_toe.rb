@@ -82,7 +82,8 @@ end
 
 def winner
   binding.pry
-    #if winning_combo = @board[won?[index]]
-  #end
+    if won?
+    @board[won?[0]]
+  end
 end
 end
