@@ -96,4 +96,3 @@ def play
   elsif draw?
     puts "Cat's Game!"
   end
-end
