@@ -82,7 +82,7 @@ end
 
 def winner
   binding.pry
-    #if winning_combo = won?@board[winning_combo.first]
+    #if winning_combo = @board[won?[index]]
   #end
 end
 end
