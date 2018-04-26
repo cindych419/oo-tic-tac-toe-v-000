@@ -81,7 +81,6 @@ def over?
 end
 
 def winner
-  binding.pry
     if won?
     @board[won?[0]]
   end
